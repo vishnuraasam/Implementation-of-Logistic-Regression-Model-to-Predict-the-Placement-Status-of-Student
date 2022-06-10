@@ -14,7 +14,7 @@ To write a program to implement the the Logistic Regression Model to Predict the
 4. 
 
 ## Program:
-
+~~~
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: Rasam Vishnu 
 RegisterNumber: 212220040131
@@ -59,6 +59,7 @@ from sklearn.metrics import classification_report
 classification_report1 = classification_report(y_test,y_pred)
 classification_report1
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
+~~~
 
 
 ## Output:
