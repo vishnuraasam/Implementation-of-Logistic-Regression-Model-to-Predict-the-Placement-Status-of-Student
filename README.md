@@ -8,10 +8,12 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import standard libraries
+2.Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
+3.import LogisticRegression from sklearn and apply the model on the dataset.
+4.Predict the values of array
+5.Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
+6.Apply new unknown values
 
 ## Program:
 ~~~
@@ -63,7 +65,18 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 
 
 ## Output:
-![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
+## Head:
+![image](https://user-images.githubusercontent.com/103240414/172992063-8f4bd6e8-c443-45c0-b03f-06cc9ca1bbf8.png)
+## Predicted Values:
+![image](https://user-images.githubusercontent.com/103240414/172992176-3476534a-d1db-47ce-9d12-f0339c4b7f19.png)
+## Accuracy:
+![image](https://user-images.githubusercontent.com/103240414/172992227-97befa1d-83df-42dd-91dc-61efb393f16a.png)
+## Confusion matrix:
+![image](https://user-images.githubusercontent.com/103240414/172992280-1fbbd9a1-f34f-46e6-8c60-a6f32cb63459.png)
+## Classification Report:
+![image](https://user-images.githubusercontent.com/103240414/172992323-a254e4c6-ea41-4e44-9dd0-2a790f763f07.png)
+
+
 
 
 ## Result:
